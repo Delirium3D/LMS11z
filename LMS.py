@@ -12,7 +12,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                                     '/stop - Остановить бота')
 
 async def info(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text('Этот чат-бот создан студентом Спирин Никита Владимироваич Б9123-09.03.02ПРС.')
+    await update.message.reply_text('Этот чат-бот создан студентом Спирин Никита Владимироваич, Лазарев Станислав Юрьевичь. Гусев Андрей Юрьевичь. Б9123-09.03.02ПРС')
 
 async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text('До свидания! Если у тебя будут вопросы, просто напиши.')
